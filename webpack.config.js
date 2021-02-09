@@ -7,5 +7,8 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js"
   },
+  devServer: {
+    publicPath: '/dist/'
+  },
   devtool: "sourcemap"
 };
